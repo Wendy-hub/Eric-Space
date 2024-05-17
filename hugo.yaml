@@ -1,0 +1,80 @@
+baseURL: "https://Wendy-hub.github.io"
+languageCode: "zh-cn"
+title: "Eric'Space"
+theme: ["PaperMod"]
+
+params:
+  env: production
+  author: "Jianan Wang"
+  description: "个人博客，专注于机器学习和AI深度学习的研究。并分享好玩的"
+  ShowReadingTime: true
+  ShowToc: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  defaultTheme: "auto"
+  enableRobotsTXT: true
+  email: "wangjianan@stanford.edu"
+  github: "https://github.com/Wendy-hub"
+  twitter: "@Eric130125"
+
+  homeInfoParams:
+    Title: "👋 Welcome to Eric'Space"
+    Content: "Hi, this is Wang Jianan. Here is my personal website where I share my projects and ideas. I like AI, travel, and anime such as Naruto and Demon Slayer: Kimetsu no Yaiba. I will share my learnings and interesting things here.😉"
+
+  socialIcons:
+    - name: "Github"
+      url: "https://github.com/Wendy-hub"
+      icon: "fa-github"
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/xxx/"
+      icon: "fa-linkedin"
+    - name: "Twitter"
+      url: "https://twitter.com/xxx"
+      icon: "fa-twitter"
+
+  cover:
+    linkFullImages: true
+  enableSearch: true
+  
+
+
+# Enable multilingual mode
+# defaultContentLanguage: "zh-cn"
+
+menu:
+  main:
+    - identifier: "home"
+      name: "Home"
+      url: "/"
+      weight: 10
+    - identifier: "posts"
+      name: "Posts"
+      url: "/posts/"
+      weight: 20
+    - identifier: "tags"
+      name: "Tags"
+      url: "/tags/"
+      weight: 30
+    - identifier: "search"
+      name: "Search"
+      url: "/search/"
+      weight: 40
+    - identifier: "Archives"
+      name: "Archives"
+      url: "/archives/"
+      weight: 50
+    - identifier: "about"
+      name: "About"
+      url: "/about/"
+      weight: 60
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+
+# languages:
+#   zh-cn:
+#     languageName: "中文"
+#     weight: 1
