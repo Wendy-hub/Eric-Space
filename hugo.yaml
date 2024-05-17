@@ -5,6 +5,8 @@ theme: ["PaperMod"]
 
 params:
   env: production
+  assets: 
+    favicon: "assets/favicon.ico"
   author: "Jianan Wang"
   description: "个人博客，专注于机器学习和AI深度学习的研究。并分享好玩的"
   ShowReadingTime: true
